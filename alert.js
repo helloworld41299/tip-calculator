@@ -13,6 +13,7 @@ function calculateTip() {
     }
 
     // Calculate the total tip.
+   // among all
     function tipCalc() {
         let tipTotal = ((billAmount * 100) * tipPercentage) / 100;
         tipTotal = tipTotal.toFixed(2);
